@@ -1,7 +1,7 @@
 // Palavras relacionadas à lógica de programação
 const palavras = [
     'ALGORITMO',
-    'VARIÁVEL',
+    'VARIAVEL',
     'FUNÇÃO',
     'LOOP',
     'CONDICIONAL',
