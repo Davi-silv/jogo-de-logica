@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca - Lógica de Programação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca - Lógica de Programação</h1>
+        
+        <div class="game-container">
+            <div class="hangman-container">
+                <canvas id="hangmanCanvas"></canvas>
+            </div>
+            
+            <div class="game-info">
+                <div class="word-display" id="wordDisplay"></div>
+                <div class="category">Categoria: Lógica de Programação</div>
+                <div class="attempts">Tentativas restantes: <span id="attempts">6</span></div>
+                <div class="used-letters">Letras usadas: <span id="usedLetters"></span></div>
+            </div>
+        </div>
+
+        <div class="keyboard" id="keyboard"></div>
+
+        <div class="message" id="message"></div>
+        
+        <div class="buttons-container">
+            <button id="hintBtn" class="hint-btn">Pedir Dica</button>
+            <button id="newGameBtn" class="new-game-btn">Novo Jogo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
